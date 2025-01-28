@@ -5,6 +5,9 @@ import time
 from threading import Thread
 from telebot.types import InlineKeyboardMarkup, InlineKeyboardButton
 
+from keep_alive import keep_alive
+keep_alive()
+
 # Bot initialization
 BOT_TOKEN = "7073457035:AAEPBaDvAHzT5urusLFo8Wm7QESBd8_bdno"  # Replace with your bot token
 bot = telebot.TeleBot(BOT_TOKEN)
